@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from AppMVT.views import familiar,familiar1,familiar2,familiar3,familiar4
+from AppMVT.views import familiar,familiar1,familiar2,familiar3,familiar4      #posible error(sera el from?)
 
 
 urlpatterns = [

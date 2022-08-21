@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from AppMVT.models import familiar,familiar1,familiar2,familiar3,familiar4
+from AppMVT.models import familiar,familiar1,familiar2,familiar3,familiar4     #posible error al llamar appmvt
 from django.http import HttpResponse
 from datetime import datetime
 
