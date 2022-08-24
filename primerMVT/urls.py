@@ -15,14 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from AppMVT.views import familiar,familiar1,familiar2,familiar3,familiar4      #posible error(sera el from?)
+from App_MVT.views import familiar     
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('familiar/', familiar),
-    path('familiar1/', familiar1),
-    path('familiar2/',familiar2),
-    path('familiar3/',familiar3),
-    path('familiar4/', familiar4),
+    path('familiar/<int:edad>', familiar),
+    
 ]

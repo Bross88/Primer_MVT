@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVT</title>
+    
+    <style>
+        body{
+          background-color: blue
+        }
+          .color-fondo {
+           background-color: aqua;
+           padding:35px;
+           color:black;
+           text-align: center
+          }      
+      
+    </style>
+</head>
+
+
+<body>
+    
+    <font size="15", color="red",>Mi Primer MVT</font> 
+    
+    <br>
+    <hr>
+    <br>
+    <h2><b>Integrantes de la familia</b></h2>
+ 
+    <h3><b>Primer Familiar</b></h3>
+    <ul>
+      <li>Nombre: {{familiar1.nombre}}</li>
+      <li>Apellido: {{familiar1.apellido}}</li>
+      <li>Direccion de E-mail: {{familiar1.email}}</li>
+      <li>Es Empleado:{{familiar1.empleado}}</li>
+      <li>fecha de nacimiento::{{familiar1.fecha}}</li>
+
+
+    </ul>
+    <h3><b>Segundo Familiar</b></h3>
+    <ul>
+      <li>Nombre:{{familiar2.nombre}}</li>
+      <li>Apellido:{{familiar2.apellido}}</li>
+      <li>Direccion de E-mail:{{familiar2.email}}</li>
+      <li>Es Empleado:{{familiar2.empleado}}</li>
+      <li>fecha de nacimiento::{{familiar2.fecha}}</li>
+    </ul>
+    <h3><b>Tercer Familiar</b></h3>
+    <ul>
+      <li>Nombre:{{familiar3.nombre}}</li>
+      <li>Apellido:{{familiar3.apellido}}</li>
+      <li>Direccion de E-mail:{{familiar3.email}}</li>
+      <li>Es Empleado:{{familiar3.empleado}}</li>
+      <li>fecha de nacimiento::{{familiar3.fecha}}</li>
+     <br>
+    <hr>
+    <div class="color-fondo">
+        <h2> Gracias por visitar nuestra pagina</h2>
+    </div>
+</body>
+</html> 

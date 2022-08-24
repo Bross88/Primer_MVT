@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AppmvtConfig(AppConfig):
+class AppMvtConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'AppMVT'
+    name = 'App_MVT'
